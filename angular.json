@@ -73,7 +73,10 @@
               "buildTarget": "frontend-ecommerce-angular:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "port": 8000    
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -102,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5343c681-7cba-4aab-a214-6b1c3c8c814d"
   }
 }
