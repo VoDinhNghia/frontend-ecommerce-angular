@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { routeList } from '../constants/constant';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'ecommerce';
+  homeRoute = routeList.home;
+  loginRoute = routeList.login;
 }
