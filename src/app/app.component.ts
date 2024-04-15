@@ -12,6 +12,5 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  homeRoute = routeList.home;
-  loginRoute = routeList.login;
+  routes = routeList;
 }
