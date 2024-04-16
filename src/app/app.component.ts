@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { routeList } from '../constants/constant';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
+import { isAuthen } from '../utils/permisson.util';
 
 @Component({
   selector: 'app-root',
@@ -13,4 +14,5 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class AppComponent {
   routes = routeList;
+  authen = isAuthen();
 }
